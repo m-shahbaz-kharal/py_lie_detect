@@ -5,7 +5,7 @@ An attempt (though <b>not a successful one</b>) to predict truth or lie in a vid
 There are two folders one for audio based (MFCC features) attempt and the other is video based (DLIB 68 point features) attempt. Both folders have python scripts files "custom_data_evaluator.py" and "custom_test_score.py" respectively.
 Those two scripts use the already trained classifier for video and audio features to predict label for test videos located in "test_data" folder. Execute these two files to generate results we got.
 
-# Possible problems of these attempts:
+# Possible problems in these attempts:
 1 - The data set is too much noisy.<br/>
 2 - Video based features are not normalized for face scales and face orientation in video frames.<br/>
 3 - Variable length data.<br/>
