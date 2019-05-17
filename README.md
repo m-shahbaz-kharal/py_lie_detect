@@ -1,5 +1,5 @@
 # Py Lie Detect
-An attempt (though <b>not a successful one</b>) to predict truth or lie in a video or audio using machine learning. It is still under progress, we are working on better feature encoding and evaluation techniques to train classifier.
+An attempt (though <b>not a successful one</b>) to predict truth or lie in a video or audio using machine learning. It is still under progress, we are working on better feature encoding and performance metrics to train classifier.
 
 # Usage:
 There are two folders one for audio based (MFCC features) attempt and the other is video based (DLIB 68 point features) attempt. Both folders have python scripts files "custom_data_evaluator.py" and "custom_test_score.py" respectively.
